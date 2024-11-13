@@ -1,0 +1,7 @@
+- Các nội dung đã làm được trong lab 1:
++ Cách cài đặt flutter
++ Cách tạo 1 project flutter mới
++ Cách sử dụng text trong flutter
++ Cách cấu hình và sử dụng folder assets trong flutter
++ Cách thêm icon cho android và ios
++ Set min max sdk

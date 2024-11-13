@@ -1,0 +1,33 @@
+name: lab_01
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.9.3
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+# Cấu hình cho flutter_launcher_icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/i_am_rich_app_icon.png" # Đường dẫn tới icon
+  adaptive_icon_background: "#FF6F00" # Màu nền cho adaptive icon (tùy chọn)
